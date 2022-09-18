@@ -28,7 +28,9 @@ THEN the saved events persist
 
 ## Application Details
 
-Source for moment.js library link: https://cdnjs.com/libraries/moment.js
+Uses Moment.js
+jQuery
+
 ---
 
 ## Mock-up

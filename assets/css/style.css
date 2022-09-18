@@ -21,8 +21,6 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-/* May need to add something for the .lead class to display? */
-
 .description {
   white-space: pre-wrap;
 }
@@ -39,7 +37,7 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: rgb(212, 241, 250);
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -70,4 +68,5 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color: lightblue;
 }
