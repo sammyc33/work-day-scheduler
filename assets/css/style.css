@@ -21,6 +21,11 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+#currentDay {
+background-color: rgb(255, 198, 177);
+padding: 2px;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -37,23 +42,24 @@ textarea {
 }
 
 .hour {
-  background-color: rgb(212, 241, 250);
+  background-color: #a5c6ce;
   color: #000000;
   border-top: 1px dashed #000000;
+  font-size: 20px;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: gray;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #77dd77;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #eff8cc;
   color: white;
 }
 
@@ -61,12 +67,13 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #066980;
   color: white;
+  font-size: 20px;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-  color: lightblue;
+  background-color: lightblue;
 }
