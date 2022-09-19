@@ -46,7 +46,7 @@ Enter meeting or event details into the center calendar line item and click the 
 ---
 ## Mock-up
 
-![work-day-scheduler](https://github.com/sammyc33/portfolio/blob/main/assets/images/wdmock.png)
+![work-day-scheduler](https://github.com/sammyc33/work-day-scheduler/blob/main/assets/images/wdmockup.png)
 
 ---
 
