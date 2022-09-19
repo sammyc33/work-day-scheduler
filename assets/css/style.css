@@ -49,12 +49,12 @@ padding: 2px;
 }
 
 .past {
-  background-color: gray;
+  background-color: rgb(143, 136, 136);
   color: white;
 }
 
 .present {
-  background-color: #77dd77;
+  background-color: #4ed84e;
   color: white;
 }
 

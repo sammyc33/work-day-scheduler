@@ -33,8 +33,8 @@ function changeColors() {
 
 // When you add event text and click save, the event changes are saved in local storage
 saveBtn.on("click", function () {
-    var time = $(this).siblings(hour).text();
-    var text = $(this).siblings(sched).val();
+    var time = $(this).siblings(".hour").text();
+    var text = $(this).siblings(".sched").val();
     localStorage.setItem(time, text);
 });
 
@@ -43,7 +43,7 @@ function showSchedule() {
         var theTime = $(this).text();
         var theSchedule = localStorage.getItem(theTime);
         if (theSchedule !== null) {
-            $(this).siblings(sched).val(theTime);
+            $(this).siblings(sched).val(theSchedule);
         }
     });
 }
